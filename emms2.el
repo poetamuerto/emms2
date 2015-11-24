@@ -55,6 +55,11 @@
   (interactive)
   (start-process "xmms2" nil "xmms2" "pause"))
 
+(defun emms2-toggle ()
+  "toggle play."
+  (interactive)
+  (start-process "xmms2" nil "xmms2" "toggle"))
+
 (defun emms2-shuffle ()
   "Shuffle the current playlist."
   (interactive)
